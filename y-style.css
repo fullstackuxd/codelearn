@@ -29,7 +29,7 @@ header{
 .main-container{
   height:680px;
   width: 100%;
-  background-color:#81ecec;
+  /*background-color:#81ecec;*/
   display:grid;
   grid-template-columns:.6fr 3fr;
   grid-gap: 10px;
