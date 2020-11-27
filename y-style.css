@@ -38,12 +38,12 @@ header{
   /*background-color:blue;*/
 }
 .right-content{
-  background-color:#74b9ff;
+  /*background-color:#74b9ff;*/
   display:grid;
   grid-template-rows:.8fr 6fr;
 }
 .tags{
-  background-color:yellow;
+  /*background-color:yellow;*/
 }
 .video-tile{
   background-color:grey;
@@ -85,4 +85,20 @@ header{
 }
 .first-section a:nth-child(2) img{
   width: 24px;
+}
+.tags{
+  display: flex;
+  align-items: center;
+}
+.chips{
+  width: 100px;
+  height: 40px;
+  border: .5px solid #bdc3c7;
+  border-radius: 25px;
+  background-color:#ecf0f1;
+  margin: 0 10px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
