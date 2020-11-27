@@ -1,3 +1,7 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
 header{
   /*background-color:#dfe6e9;*/
   height: 50px;
@@ -24,6 +28,7 @@ header{
 }
 .search > input{
   width: 500px;
+  height: 20px;
   outline-color: #3498db;
 }
 .main-container{
