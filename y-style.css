@@ -35,7 +35,7 @@ header{
   grid-gap: 10px;
 }
 .left-nav{
-  background-color:blue;
+  /*background-color:blue;*/
 }
 .right-content{
   background-color:#74b9ff;
@@ -56,4 +56,33 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.first-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*background-color: red;*/
+  align-items: center;
+  padding-top: 20px;
+}
+.first-section a{
+  width: 80%;
+  height: 40px;
+  /*background-color: teal;*/
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+.icon-container img{
+  width: 20px;
+}
+
+.icon-container{
+  /*background-color: yellow;*/
+  width: 40px;
+}
+.first-section a:nth-child(2) img{
+  width: 24px;
 }
