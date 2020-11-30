@@ -91,13 +91,18 @@ header{
   color: black;
   margin-bottom: 10px;
 }
+
+.first-section span{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .icon-container img{
   width: 20px;
 }
 
 .icon-container{
   /*background-color: yellow;*/
-  width: 40px;
+  min-width: 40px;
 }
 .first-section a:nth-child(2) img{
   width: 24px;
