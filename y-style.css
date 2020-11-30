@@ -54,6 +54,8 @@ header{
 }
 .tags{
   /*background-color:yellow;*/
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
 }
 .video-tile{
  /* background-color:grey;*/
