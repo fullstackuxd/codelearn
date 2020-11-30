@@ -1,3 +1,7 @@
+p{
+  padding: 0;
+  margin: 0;
+}
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -52,7 +56,11 @@ header{
   /*background-color:yellow;*/
 }
 .video-tile{
-  background-color:grey;
+ /* background-color:grey;*/
+  display: flex;
+  flex-wrap: wrap;
+  padding:1em;
+
 }
 .right-icons > img{
   width: 20px;
@@ -107,4 +115,39 @@ header{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.tile-image{
+  max-width: 250px;
+  height: 150px;
+  background-color: yellow;
+  overflow: hidden;
+}
+.tile-about{
+  width: 250px;
+  height: 80px;
+  /*background-color: blue;*/
+  display: flex;
+  padding-top: 10px;
+}
+.tile-about-image{
+  width: 40px;
+  height:40px;
+  border-radius: 25px;
+  background-image: url("/asset/tile-profile.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 15px;
+}
+.tile-about-image img{
+  width: 100%;
+}
+.tile-image img{
+  height: 100%;
+}
+.tile-about-description p:nth-child(1) {
+  font-weight: bold;
+  padding-bottom: 6px;
+}
+.tile-container{
+  margin: 2em;
 }
