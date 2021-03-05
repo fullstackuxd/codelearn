@@ -34,7 +34,7 @@ nav{
 }
 
 .logo img{
-    width: 60px;
+    min-width: 60px;
 }
 
 .social li{
