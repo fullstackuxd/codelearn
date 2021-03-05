@@ -3,3 +3,13 @@
         grid-template-columns: 15% 2fr 15%;
     }
 }
+@media (max-width:680px){
+    .projects{
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-one, .project-two{
+        width:60% ;
+        margin-bottom: 5vh;
+    }
+}
