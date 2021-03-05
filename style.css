@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+h4{
+    padding-bottom: 20px;
+}
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+nav, .introduction, .seperation, .featured-work, .projects{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav, .logo, .social, .projects{
+    display: flex;
+}
+
+.logo, .social{
+    flex: 1;
+    justify-content:flex-end;
+}
+
+nav{
+    min-height: 10vh;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    padding-top: 10vh;
+}
+
+.logo img{
+    width: 3em;
+}
+
+.social li{
+    margin-right: 10px;
+}
+.introduction{
+    padding: 10vh 0 10vh 0;
+    display: grid;
+    grid-template-columns: 25% 2fr 25%;
+    /* background-color:blueviolet; */
+    line-height: 2.5em;
+}
+.intro-style{ 
+    grid-column: 2/3;
+}
+.featured-work{
+    /* background-color: antiquewhite; */
+    text-align: center;
+    padding: 10vh 0 10vh 0;
+    border-top: 1px solid #DADBDC;
+}
+
+.projects{
+    /* background-color: aquamarine; */
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+.project-one, .project-two{
+    width: 30%;
+    font-size: .9em;
+}
