@@ -1,6 +1,6 @@
 @media (max-width:1100px){
     .introduction{
-        grid-template-columns: 15% 2fr 15%;
+        grid-template-columns: 8% 2fr 8%;
     }
 }
 @media (max-width:680px){
