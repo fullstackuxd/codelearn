@@ -15,4 +15,10 @@
     .logo img{
         min-width: 80px;
     }
+    .social{
+        display: none;
+    }
+    .logo{
+        justify-content: center;
+    }
 }
